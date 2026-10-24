@@ -1,4 +1,5 @@
 #!/bin/bash
 set -e
 
-echo "hehe"
+echo "Stopping existing Docker container..."
+docker rm -f newcontainer || true
